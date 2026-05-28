@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\views\\tiposdetreinos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\views\\tiposdetreinos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\controllers\\tiposdetreinoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\controllers\\tiposdetreinoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\controllers\\exercicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\controllers\\exercicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\views\\tiposdetreinos\\_formtiposdetreino.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\views\\tiposdetreinos\\_formtiposdetreino.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\views\\exercicios\\_formexercicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\views\\exercicios\\_formexercicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\fitmygoela.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\fitmygoela.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela\\data\\migrations\\20260420134909_fitmygoela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\data\\migrations\\20260420134909_fitmygoela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-21T10:03:58.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\TiposDeTreinos\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Views\\TiposDeTreinos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\TiposDeTreinos\\Index.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Views\\TiposDeTreinos\\Index.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwGsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-21T08:53:46.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_FormTiposDeTreino.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\TiposDeTreinos\\_FormTiposDeTreino.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Views\\TiposDeTreinos\\_FormTiposDeTreino.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\TiposDeTreinos\\_FormTiposDeTreino.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Views\\TiposDeTreinos\\_FormTiposDeTreino.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T13:54:08.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260420134909_FitmyGoela.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Data\\Migrations\\20260420134909_FitmyGoela.cs",
+              "RelativeDocumentMoniker": "FitMyGoela\\Data\\Migrations\\20260420134909_FitmyGoela.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Data\\Migrations\\20260420134909_FitmyGoela.cs",
+              "RelativeToolTip": "FitMyGoela\\Data\\Migrations\\20260420134909_FitmyGoela.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T13:49:10.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_FormExercicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\Exercicios\\_FormExercicio.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Views\\Exercicios\\_FormExercicio.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\Exercicios\\_FormExercicio.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Views\\Exercicios\\_FormExercicio.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T09:41:56.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExerciciosController.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Controllers\\ExerciciosController.cs",
+              "RelativeDocumentMoniker": "FitMyGoela\\Controllers\\ExerciciosController.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Controllers\\ExerciciosController.cs",
+              "RelativeToolTip": "FitMyGoela\\Controllers\\ExerciciosController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowAEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:27:21.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T08:04:41.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TiposDeTreinosController.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Controllers\\TiposDeTreinosController.cs",
+              "RelativeDocumentMoniker": "FitMyGoela\\Controllers\\TiposDeTreinosController.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\Controllers\\TiposDeTreinosController.cs",
+              "RelativeToolTip": "FitMyGoela\\Controllers\\TiposDeTreinosController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAUwKgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T08:03:14.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FitMyGoela.csproj",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\FitMyGoela.csproj",
+              "RelativeDocumentMoniker": "FitMyGoela\\FitMyGoela.csproj",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\FitMyGoela.csproj",
+              "RelativeToolTip": "FitMyGoela\\FitMyGoela.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-27T09:29:25.955Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

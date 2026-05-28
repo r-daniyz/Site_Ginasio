@@ -1,0 +1,81 @@
+﻿@model FitMyGoela.Models.Exercicio
+
+@{
+    ViewData["Title"] = "Eliminar Exercício";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-9">
+            @* Título Superior *@
+            <h2 class="text-center mb-4" style="color: #dc3545; font-weight: bold; text-transform: uppercase;">
+                Eliminar Exercício?
+            </h2>
+
+            <div class="card shadow-lg border-0" style="background-color: #1a1a1a;">
+                @* Cabeçalho do Card *@
+                <div class="card-header bg-danger border-0 d-flex justify-content-between align-items-center">
+                    <span class="text-white fw-bold"><i class="bi bi-exclamation-triangle-fill me-2"></i> Confirmação de Exclusão</span>
+                    <span class="badge bg-dark px-3">Esta ação é irreversível</span>
+                </div>
+
+                <div class="card-body p-4 text-white">
+                    <p class="text-center mb-4 text-white-50">Tem a certeza que deseja remover este exercício do seu treino?</p>
+
+                    <div class="row">
+                        @* Coluna da Esquerda *@
+                        <div class="col-md-7 border-end border-secondary border-opacity-25">
+                            <div class="mb-3">
+                                <label class="text-orange-gym small text-uppercase fw-bold d-block">Nome</label>
+                                <span class="fs-5">@Model.Nome</span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="text-orange-gym small text-uppercase fw-bold d-block">Configuração</label>
+                                <span class="text-white-50">@Model.Series Séries x @Model.Repeticoes Reps</span>
+                            </div>
+
+                            <div class="mb-3 text-muted">
+                                <small><i class="bi bi-info-circle me-1"></i> Todos os dados associados a este exercício serão apagados.</small>
+                            </div>
+                        </div>
+
+                        @* Coluna da Direita *@
+                        <div class="col-md-5 text-center d-flex flex-column align-items-center justify-content-center bg-dark bg-opacity-25 rounded p-3">
+                            <div class="mb-2" style="width: 100%; max-width: 200px; height: 140px; background-color: #111; border-radius: 8px; border: 2px solid #444; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+                                @if (!string.IsNullOrEmpty(Model.Imagem))
+                                {
+                                    <img src="~/imagens/@Model.Imagem" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6;" />
+                                }
+                                else
+                                {
+                                    <i class="bi bi-camera-video-off text-secondary" style="font-size: 2rem;"></i>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-secondary border-opacity-25 my-4" />
+
+                    @* Formulário de Eliminação *@
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="d-flex justify-content-center gap-3">
+                            <a asp-action="Index" class="btn btn-outline-light px-5">
+                                <i class="bi bi-x-lg"></i> CANCELAR
+                            </a>
+                            <button type="submit" class="btn btn-danger px-5 fw-bold shadow-sm">
+                                <i class="bi bi-trash3-fill me-1"></i> ELIMINAR AGORA
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .text-orange-gym { color: #ff6600; }
+</style>

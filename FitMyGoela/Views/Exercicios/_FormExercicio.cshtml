@@ -1,0 +1,103 @@
+﻿@model FitMyGoela.Models.Exercicio
+
+<div class="row">
+    @* Coluna da Esquerda: Dados *@
+    <div class="col-md-7 border-end border-secondary border-opacity-25">
+        @* Nome *@
+        <div class="form-group mb-3">
+            <label asp-for="Nome" class="control-label fw-bold text-orange-gym small text-uppercase">Nome</label>
+            <input asp-for="Nome" class="form-control bg-dark text-white border-secondary" placeholder="Ex: Supino Inclinado" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+        </div>
+
+        @* Descrição *@
+        <div class="form-group mb-3">
+            <label asp-for="Descricao" class="control-label fw-bold text-orange-gym small text-uppercase">Descrição</label>
+            <textarea asp-for="Descricao" class="form-control bg-dark text-white border-secondary" rows="2" placeholder="Breve orientação técnica..."></textarea>
+            <span asp-validation-for="Descricao" class="text-danger"></span>
+        </div>
+
+        @* Categoria *@
+        <div class="form-group mb-3">
+            <label asp-for="TiposDeTreinoId" class="control-label fw-bold text-orange-gym small text-uppercase">Treinos</label>
+            <select asp-for="TiposDeTreinoId" class="form-select bg-dark text-white border-secondary" asp-items="ViewBag.TiposDeTreinoId">
+                <option value="">-- Selecione --</option>
+            </select>
+            <span asp-validation-for="TiposDeTreinoId" class="text-danger"></span>
+        </div>
+
+        @* Séries e Reps *@
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label asp-for="Series" class="control-label fw-bold text-orange-gym small text-uppercase">Séries</label>
+                <input asp-for="Series" class="form-control bg-dark text-white border-secondary" />
+                <span asp-validation-for="Series" class="text-danger"></span>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label asp-for="Repeticoes" class="control-label fw-bold text-orange-gym small text-uppercase">Reps</label>
+                <input asp-for="Repeticoes" class="form-control bg-dark text-white border-secondary" />
+                <span asp-validation-for="Repeticoes" class="text-danger"></span>
+            </div>
+        </div>
+
+        @* Vídeo *@
+        <div class="form-group mb-3">
+            <label asp-for="LinkVideoTutorial" class="control-label fw-bold text-orange-gym small text-uppercase">Link Vídeo</label>
+            <input asp-for="LinkVideoTutorial" class="form-control bg-dark text-white border-secondary" placeholder="https://youtube.com/..." />
+            <span asp-validation-for="LinkVideoTutorial" class="text-danger"></span>
+        </div>
+    </div>
+
+    @* Coluna da Direita: Imagem *@
+    <div class="col-md-5 text-center d-flex flex-column align-items-center justify-content-center bg-dark bg-opacity-25 rounded p-3">
+        <label class="fw-bold text-orange-gym small text-uppercase mb-2">Imagem do Exercício</label>
+
+        <div class="mb-3 d-flex align-items-center justify-content-center" style="width: 200px; height: 150px; background-color: #111; border-radius: 8px; border: 2px dashed #444; overflow: hidden;">
+            @if (!string.IsNullOrEmpty(Model?.Imagem))
+            {
+                <img src="~/imagens/@Model.Imagem" id="preview" style="width: 100%; height: 100%; object-fit: cover;" />
+            }
+            else
+            {
+                <div id="no-photo-container" class="text-secondary d-flex flex-column align-items-center">
+                    <i class="bi bi-camera-video-off" style="font-size: 2rem;"></i>
+                    <span class="small mt-1">Sem Foto</span>
+                    <img id="preview" style="display:none; width: 100%; height: 100%; object-fit: cover;" />
+                </div>
+            }
+        </div>
+
+        <input type="file" name="foto" class="form-control form-control-sm bg-dark text-white border-secondary" accept="image/*" onchange="previewImage(event)" />
+        <small class="text-muted mt-2" style="font-size: 0.7rem;">Selecione para adicionar ou substituir.</small>
+    </div>
+
+<input type="hidden" asp-for="Imagem" />
+
+<style>
+    .text-orange-gym {
+        color: #ff6600;
+    }
+
+    .form-control::placeholder {
+        color: #666;
+        font-size: 0.8rem;
+    }
+</style>
+
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var output = document.getElementById('preview');
+                var noPhoto = document.getElementById('no-photo-container');
+
+                output.src = reader.result;
+                output.style.display = 'block'; 
+
+                if (noPhoto) {
+                    noPhoto.style.display = 'none'; 
+                }
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>

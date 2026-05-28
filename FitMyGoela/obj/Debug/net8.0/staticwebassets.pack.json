@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FitMyGoela.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FitMyGoela.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\26910e69-de42-4bb8-b17e-d4ca039e2729.jpg",
+      "PackagePath": "staticwebassets\\imagens\\26910e69-de42-4bb8-b17e-d4ca039e2729.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\36c4dd45-7f64-44cb-96a1-857c46c97fab.jpg",
+      "PackagePath": "staticwebassets\\imagens\\36c4dd45-7f64-44cb-96a1-857c46c97fab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\3da86962-f12b-4cc3-9b86-909087ce45f2.jpeg",
+      "PackagePath": "staticwebassets\\imagens\\3da86962-f12b-4cc3-9b86-909087ce45f2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\456a7b1c-6795-4f00-a4e4-da5bcedcb243.jpg",
+      "PackagePath": "staticwebassets\\imagens\\456a7b1c-6795-4f00-a4e4-da5bcedcb243.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\5c5e10ad-33eb-4afd-878e-61d0923686d3.png",
+      "PackagePath": "staticwebassets\\imagens\\5c5e10ad-33eb-4afd-878e-61d0923686d3.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\5ce85cbc-3e7a-4725-99a5-12bf4b3d738a.avif",
+      "PackagePath": "staticwebassets\\imagens\\5ce85cbc-3e7a-4725-99a5-12bf4b3d738a.avif"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\5cf6add4-65dc-4a83-8b41-d6c175a4aa5e.jpeg",
+      "PackagePath": "staticwebassets\\imagens\\5cf6add4-65dc-4a83-8b41-d6c175a4aa5e.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\7965dc73-74c7-4adb-a571-412aa6330f6e.jpg",
+      "PackagePath": "staticwebassets\\imagens\\7965dc73-74c7-4adb-a571-412aa6330f6e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\8036d74d-cd9d-4756-8aa1-c81fc76d3117.png",
+      "PackagePath": "staticwebassets\\imagens\\8036d74d-cd9d-4756-8aa1-c81fc76d3117.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\857699ed-25e5-4374-b212-25417384ed17.jpeg",
+      "PackagePath": "staticwebassets\\imagens\\857699ed-25e5-4374-b212-25417384ed17.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\931dd87a-2af9-49fc-b32d-975b17396388.jpeg",
+      "PackagePath": "staticwebassets\\imagens\\931dd87a-2af9-49fc-b32d-975b17396388.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\9f265537-2101-42ed-9a23-d8e75dacfb6e.jpg",
+      "PackagePath": "staticwebassets\\imagens\\9f265537-2101-42ed-9a23-d8e75dacfb6e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\a420506d-8653-4670-b4ef-492292598225.jpg",
+      "PackagePath": "staticwebassets\\imagens\\a420506d-8653-4670-b4ef-492292598225.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\a6d25ce2-9432-4caa-a313-90a614281b39_IMG_9584.jpg",
+      "PackagePath": "staticwebassets\\imagens\\a6d25ce2-9432-4caa-a313-90a614281b39_IMG_9584.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\c1bba6ad-13b6-4c0a-a099-6c2a89190485.png",
+      "PackagePath": "staticwebassets\\imagens\\c1bba6ad-13b6-4c0a-a099-6c2a89190485.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\c6c6e5a4-342f-4d4d-a8ef-7984b029b79f.jpg",
+      "PackagePath": "staticwebassets\\imagens\\c6c6e5a4-342f-4d4d-a8ef-7984b029b79f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\cc2fda1c-be44-4f7d-93fb-2291d6e8d3d0.png",
+      "PackagePath": "staticwebassets\\imagens\\cc2fda1c-be44-4f7d-93fb-2291d6e8d3d0.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\d1dba318-cc31-43cd-a6a8-f4d3213309a8.png",
+      "PackagePath": "staticwebassets\\imagens\\d1dba318-cc31-43cd-a6a8-f4d3213309a8.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\daf80e55-345e-4f19-99cb-8ef8554f3b54.jpg",
+      "PackagePath": "staticwebassets\\imagens\\daf80e55-345e-4f19-99cb-8ef8554f3b54.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\e6c68fbb-25a5-424c-bcbb-9e6345d2f741.png",
+      "PackagePath": "staticwebassets\\imagens\\e6c68fbb-25a5-424c-bcbb-9e6345d2f741.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\e84422d9-79bf-4390-a8f5-b284db0b5d10.jpeg",
+      "PackagePath": "staticwebassets\\imagens\\e84422d9-79bf-4390-a8f5-b284db0b5d10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\f6f89f77-22dc-4326-ada7-b25b92874274.png",
+      "PackagePath": "staticwebassets\\imagens\\f6f89f77-22dc-4326-ada7-b25b92874274.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\ffe16d19-beee-4f1d-b529-fbc43560987f.png",
+      "PackagePath": "staticwebassets\\imagens\\ffe16d19-beee-4f1d-b529-fbc43560987f.png"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\imagens\\treino1.jpg",
+      "PackagePath": "staticwebassets\\imagens\\treino1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FitMyGoela.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FitMyGoela.props",
+      "PackagePath": "build\\FitMyGoela.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FitMyGoela.props",
+      "PackagePath": "buildMultiTargeting\\FitMyGoela.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FitMyGoela.props",
+      "PackagePath": "buildTransitive\\FitMyGoela.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

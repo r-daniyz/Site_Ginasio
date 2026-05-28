@@ -1,0 +1,128 @@
+﻿@model FitMyGoela.Models.TiposDeTreino
+
+@{
+    var isEdit = ViewContext.RouteData.Values["action"]?.ToString().Equals("Edit", StringComparison.OrdinalIgnoreCase) ?? false;
+    ViewData["Title"] = isEdit ? "Editar Treino" : "Novo Treino";
+}
+
+<div class="main-center-wrapper">
+    <div class="col-md-6 col-lg-4 px-3">
+
+        @* Título *@
+        <div class="text-center mb-4">
+            <h1 class="display-6 fw-bold text-uppercase" style="color: #ff6600; letter-spacing: 2px;">
+                @(isEdit ? "Editar" : "Nova") <span class="text-white">Treino</span>
+            </h1>
+        </div>
+
+        @* Card  *@
+        <div class="card shadow-lg border-0 gym-card-style">
+            <div class="card-header border-secondary border-opacity-10 bg-dark py-3 text-center">
+                <small class="text-white-50 text-uppercase fw-bold" style="letter-spacing: 1px;">
+                    Dados do Registro
+                </small>
+            </div>
+
+            <div class="card-body p-4">
+                <form asp-action="@(isEdit ? "Edit" : "Create")">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    @if (isEdit)
+                    {
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="UserId" />
+                    }
+
+                    @* Nome *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Nome" class="fw-bold text-orange-gym small text-uppercase mb-1">Nome</label>
+                        <input asp-for="Nome" class="form-control gym-input" placeholder="Ex: Hipertrofia" />
+                        <span asp-validation-for="Nome" class="text-danger small"></span>
+                    </div>
+
+                    @* Duração *@
+                    <div class="form-group mb-3">
+                        <label asp-for="DuracaoMinutos" class="fw-bold text-orange-gym small text-uppercase mb-1">Duração (Minutos)</label>
+                        <input asp-for="DuracaoMinutos" class="form-control gym-input" placeholder="60" />
+                        <span asp-validation-for="DuracaoMinutos" class="text-danger small"></span>
+                    </div>
+
+                    @* Descrição *@
+                    <div class="form-group mb-4">
+                        <label asp-for="Descricao" class="fw-bold text-orange-gym small text-uppercase mb-1">Descrição</label>
+                        <textarea asp-for="Descricao" class="form-control gym-input" rows="3" placeholder="Objetivos..."></textarea>
+                        <span asp-validation-for="Descricao" class="text-danger small"></span>
+                    </div>
+
+                    @* Botões *@
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-gym-orange py-2 fw-bold text-uppercase">
+                            @(isEdit ? "Guardar Alterações" : "Salvar Treino")
+                        </button>
+                        <a asp-action="Index" class="btn btn-link text-secondary text-decoration-none btn-sm text-uppercase fw-bold mt-1">
+                            Cancelar
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .main-center-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+/
+    }
+
+    .gym-card-style {
+        background-color: rgba(40, 40, 40, 0.6) !important; 
+        backdrop-filter: blur(5px); 
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .text-orange-gym {
+        color: #ff6600;
+    }
+
+    .gym-input {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        border: 1px solid #444 !important;
+        color: white !important;
+    }
+
+        .gym-input:focus {
+            border-color: #ff6600 !important;
+            box-shadow: none !important;
+        }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+    }
+
+        .btn-gym-orange:hover {
+            background-color: #e65c00;
+        }
+
+  
+    .btn-primary, .btn-secondary, h1:not(.display-6) {
+        display: none !important;
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,93 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout != null)
+    {
+        Layout = parentLayout.ToString();
+    }
+    else
+    {
+        Layout = "/Views/Shared/_Layout.cshtml"; // Forçamos o teu layout principal
+    }
+}
+
+<div class="container mt-5 pt-4">
+    @* Cabeçalho da Página *@
+    <div class="text-center mb-5">
+        <h1 class="display-6 fw-bold text-uppercase" style="color: #ff6600; letter-spacing: 2px;">
+            Minha <span class="text-white">Conta</span>
+        </h1>
+        <p class="text-white-50 small text-uppercase">Gerencie as suas definições e segurança</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg border-0 gym-card-style">
+                <div class="row g-0">
+                    @* Menu Lateral Esquerdo *@
+                    <div class="col-md-3 border-end border-secondary border-opacity-25 bg-dark bg-opacity-25 p-3">
+                        <div class="manage-nav-wrapper">
+                            <partial name="_ManageNav" />
+                        </div>
+                    </div>
+
+                    @* Conteúdo da Direita *@
+                    <div class="col-md-9 p-4 text-white">
+                        <div class="manage-body-content">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Estilo do Card translúcido */
+    .gym-card-style {
+        background-color: rgba(40, 40, 40, 0.6) !important;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        overflow: hidden;
+    }
+
+    .text-orange-gym { color: #ff6600; }
+
+    /* Estilização dos links do menu lateral (_ManageNav) */
+    .manage-nav-wrapper .nav-pills .nav-link {
+        color: rgba(255, 255, 255, 0.7);
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        transition: 0.3s;
+    }
+
+    .manage-nav-wrapper .nav-pills .nav-link.active {
+        background-color: #ff6600 !important;
+        color: white !important;
+    }
+
+    .manage-nav-wrapper .nav-pills .nav-link:hover:not(.active) {
+        background-color: rgba(255, 102, 0, 0.1);
+        color: #ff6600;
+    }
+
+    /* Ajustes de tipografia dentro do RenderBody */
+    .manage-body-content h3, .manage-body-content h4 {
+        color: #ff6600;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Esconde títulos originais do ASP.NET que duplicam */
+    h1:not(.display-6), h2, hr { display: none !important; }
+    .manage-body-content hr { display: block !important; opacity: 0.1; }
+</style>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

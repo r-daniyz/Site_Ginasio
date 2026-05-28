@@ -1,0 +1,72 @@
+﻿@page
+@model DeletePersonalDataModel
+@{
+    ViewData["Title"] = "Eliminar Conta";
+    ViewData["ActivePage"] = ManageNavPages.PersonalData;
+}
+
+<h3 class="text-danger fw-bold text-uppercase mb-4">@ViewData["Title"]</h3>
+
+@* Alerta de Perigo Estilizado *@
+<div class="alert alert-danger border-0 shadow-sm mb-4" style="background-color: rgba(220, 53, 69, 0.1); color: #ea868f;">
+    <p class="mb-0 d-flex align-items-center">
+        <i class="bi bi-exclamation-triangle-fill me-2 fs-4"></i>
+        <strong>Atenção: A eliminação destes dados removerá permanentemente a sua conta e este processo não pode ser revertido.</strong>
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-lg-6">
+        <form id="delete-user" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+            @if (Model.RequirePassword)
+            {
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Password" class="fw-bold text-white-50 small text-uppercase mb-1">Confirme a sua Palavra-passe</label>
+                    <input asp-for="Input.Password" class="form-control gym-input-danger" autocomplete="current-password" aria-required="true" placeholder="Introduza a sua password para confirmar" />
+                    <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                </div>
+            }
+
+            <button class="w-100 btn btn-danger py-2 fw-bold text-uppercase shadow-sm" type="submit">
+                <i class="bi bi-trash3-fill me-2"></i> Eliminar Dados e Fechar Conta
+            </button>
+        </form>
+    </div>
+</div>
+
+<style>
+    /* Estilos para o tema de perigo/eliminação */
+    .gym-input-danger {
+        background-color: rgba(220, 53, 69, 0.05) !important;
+        border: 1px solid rgba(220, 53, 69, 0.3) !important;
+        color: white !important;
+        padding: 0.6rem 1rem;
+    }
+
+    .gym-input-danger:focus {
+        border-color: #dc3545 !important;
+        box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+        background-color: rgba(220, 53, 69, 0.1) !important;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+        transition: 0.3s;
+    }
+
+    .btn-danger:hover {
+        background-color: #bb2d3b;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
+    }
+
+    /* Esconder labels flutuantes originais */
+    .form-floating > label { display: none; }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

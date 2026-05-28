@@ -1,0 +1,88 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "O Meu Perfil";
+    ViewData["ActivePage"] = ManageNavPages.Index;
+}
+
+<h3 class="text-orange-gym fw-bold text-uppercase mb-4">@ViewData["Title"]</h3>
+
+<partial name="_StatusMessage" for="StatusMessage" />
+
+<div class="row">
+    <div class="col-md-8 col-lg-6">
+        <form id="profile-form" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+            @* Username (Desativado) *@
+            <div class="form-group mb-3">
+                <label asp-for="Username" class="fw-bold text-white-50 small text-uppercase mb-1">Email</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-dark border-secondary border-opacity-25 text-white-50">
+                        <i class="bi bi-person-fill"></i>
+                    </span>
+                    <input asp-for="Username" class="form-control gym-input bg-dark bg-opacity-50" disabled style="cursor: not-allowed;" />
+                </div>
+            </div>
+
+            @* Telemóvel *@
+            <div class="form-group mb-4">
+                <label asp-for="Input.PhoneNumber" class="fw-bold text-white-50 small text-uppercase mb-1">Contacto Telefónico</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-dark border-secondary border-opacity-25 text-white-50">
+                        <i class="bi bi-telephone-fill"></i>
+                    </span>
+                    <input asp-for="Input.PhoneNumber" class="form-control gym-input" placeholder="912 345 678" />
+                </div>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger small"></span>
+            </div>
+
+            @* Botão Guardar *@
+            <button id="update-profile-button" type="submit" class="w-100 btn btn-gym-orange py-2 fw-bold text-uppercase shadow-sm">
+                <i class="bi bi-save2 me-2"></i> Guardar Alterações
+            </button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .text-orange-gym { color: #ff6600; }
+
+    .gym-input {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+        border: 1px solid #444 !important;
+        color: white !important;
+        padding: 0.6rem 1rem;
+    }
+
+    .gym-input:focus {
+        border-color: #ff6600 !important;
+        box-shadow: none !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+        transition: 0.3s;
+    }
+
+    .btn-gym-orange:hover {
+        background-color: #e65c00;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(255, 102, 0, 0.2);
+    }
+
+    .input-group-text {
+        border: 1px solid #444 !important;
+        border-right: none !important;
+    }
+
+    /* Removemos o estilo original de labels flutuantes */
+    .form-floating > label { display: none; }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

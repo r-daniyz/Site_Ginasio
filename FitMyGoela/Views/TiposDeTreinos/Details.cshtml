@@ -1,0 +1,102 @@
+﻿@model FitMyGoela.Models.TiposDeTreino
+
+@{
+    ViewData["Title"] = "Detalhes do Treino";
+}
+
+<div class="main-center-wrapper">
+    <div class="col-md-6 col-lg-4 px-3">
+
+        @* Título *@
+        <div class="text-center mb-4">
+            <h1 class="display-6 fw-bold text-uppercase" style="color: #ff6600; letter-spacing: 2px;">
+                Detalhes <span class="text-white">do Treino</span>
+            </h1>
+        </div>
+
+        @* Card Detalhes *@
+        <div class="card shadow-lg border-0 gym-card-style">
+            <div class="card-header border-secondary border-opacity-10 bg-dark py-3 text-center">
+                <small class="text-white-50 text-uppercase fw-bold" style="letter-spacing: 1px;">
+                    Informação Técnica
+                </small>
+            </div>
+
+            <div class="card-body p-4">
+                @* Nome *@
+                <div class="mb-4">
+                    <label class="fw-bold text-orange-gym small text-uppercase mb-1 d-block">Nome</label>
+                    <p class="text-white fs-5 mb-0 border-start border-orange-gym ps-3">
+                        @Html.DisplayFor(model => model.Nome)
+                    </p>
+                </div>
+
+                @* Duração *@
+                <div class="mb-4">
+                    <label class="fw-bold text-orange-gym small text-uppercase mb-1 d-block">Duração Média</label>
+                    <p class="text-white-50 mb-0 ps-1">
+                        <i class="bi bi-clock me-2 text-orange-gym"></i> @Html.DisplayFor(model => model.DuracaoMinutos) minutos
+                    </p>
+                </div>
+
+                @* Descrição *@
+                <div class="mb-4">
+                    <label class="fw-bold text-orange-gym small text-uppercase mb-1 d-block">Descrição</label>
+                    <div class="p-3 rounded bg-dark bg-opacity-50 text-white-50 small border border-secondary border-opacity-25">
+                        @Html.DisplayFor(model => model.Descricao)
+                    </div>
+                </div>
+
+                @* Botões de Ação *@
+                <div class="d-grid gap-2 mt-4">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-gym-orange py-2 fw-bold text-uppercase">
+                        <i class="bi bi-pencil-square me-2"></i> Editar Treino
+                    </a>
+                    <a asp-action="Index" class="btn btn-link text-secondary text-decoration-none btn-sm text-uppercase fw-bold mt-1">
+                        Voltar à Lista
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Centro Absoluto */
+    .main-center-wrapper {
+        position: fixed;
+        top: 0; left: 0; right: 0; bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+
+
+    .gym-card-style {
+        background-color: rgba(40, 40, 40, 0.6) !important;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .text-orange-gym { color: #ff6600; }
+    .border-orange-gym { border-left: 3px solid #ff6600 !important; }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+    }
+
+    .btn-gym-orange:hover {
+        background-color: #e65c00;
+        transform: translateY(-1px);
+        transition: all 0.2s;
+    }
+
+
+    h1:not(.display-6), hr, dt, dd { display: none !important; }
+    .main-center-wrapper h1 { display: block !important; }
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">

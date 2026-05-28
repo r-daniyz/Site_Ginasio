@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="hero-container">
+    <div class="background-grid">
+        <div class="bg-column" style="background-image: url('/imagens/treino1.jpg');"></div>
+        <div class="bg-column" style="background-image: url('/imagens/treino2.jpg');"></div>
+        <div class="bg-column" style="background-image: url('/imagens/treino3.jpg');"></div>
+    </div>
+
+    <div class="text-center content-layer">
+        <h1 class="fit-title">FIT MY GOELA</h1>
+    </div>
+</div>
+
+<style>
+    /* Contentor Principal */
+    .hero-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 85vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* Grelha das 3 Imagens */
+    .background-grid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        z-index: 1;
+        opacity: 0.3; /* Ajusta aqui: 0.1 mais escuro, 0.9 mais claro */
+    }
+
+    .bg-column {
+        flex: 1;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        filter: grayscale(100%); /* Fica épico em preto e branco com o logo laranja */
+        border-right: 1px solid rgba(255, 102, 0, 0.2); /* Linha subtil laranja a separar */
+    }
+
+        .bg-column:last-child {
+            border-right: none;
+        }
+
+    /* Camada do Texto para ficar por cima */
+    .content-layer {
+        position: relative;
+        z-index: 2;
+    }
+
+    .fit-title {
+        font-size: clamp(3rem, 12vw, 8rem);
+        font-weight: 900;
+        color: #ff6600;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        line-height: 1;
+        text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8); /* Sombra forte para ler bem */
+        margin: 0;
+    }
+
+    body {
+        background-color: #111 !important;
+        overflow-x: hidden;
+    }
+</style>

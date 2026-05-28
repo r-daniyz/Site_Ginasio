@@ -1,0 +1,125 @@
+﻿@page
+@model EnableAuthenticatorModel
+@{
+    ViewData["Title"] = "Configurar Autenticador";
+    ViewData["ActivePage"] = ManageNavPages.TwoFactorAuthentication;
+}
+
+<h3 class="text-orange-gym fw-bold text-uppercase mb-4">@ViewData["Title"]</h3>
+<partial name="_StatusMessage" for="StatusMessage" />
+
+<div class="text-white">
+    <p class="text-white-50">Siga os passos abaixo para configurar a sua aplicação de autenticação:</p>
+
+    <ol class="list-unstyled custom-steps">
+        @* Passo 1 *@
+        <li class="mb-4 p-3 bg-dark bg-opacity-25 rounded border border-secondary border-opacity-10">
+            <div class="d-flex align-items-center mb-2">
+                <span class="step-number me-2">1</span>
+                <p class="mb-0 fw-bold text-uppercase small text-orange-gym">Download</p>
+            </div>
+            <p class="small mb-0 opacity-75">
+                Descarregue uma app de 2FA como o Microsoft Authenticator ou Google Authenticator para
+                <a href="https://go.microsoft.com/fwlink/?Linkid=825072" class="text-orange-gym">Android/iOS</a>.
+            </p>
+        </li>
+
+        @* Passo 2 *@
+        <li class="mb-4 p-3 bg-dark bg-opacity-25 rounded border border-secondary border-opacity-10">
+            <div class="d-flex align-items-center mb-2">
+                <span class="step-number me-2">2</span>
+                <p class="mb-0 fw-bold text-uppercase small text-orange-gym">Configuração</p>
+            </div>
+            <p class="small opacity-75 mb-3">Introduza esta chave na sua aplicação de autenticação:</p>
+
+            <div class="text-center my-3">
+                <kbd class="bg-orange-gym text-dark fw-bold px-3 py-2 fs-5" style="letter-spacing: 2px;">@Model.SharedKey</kbd>
+            </div>
+
+            @* Mantemos as divs originais para não dar erro no código interno do ASP.NET *@
+            <div id="qrCode"></div>
+            <div id="qrCodeData" data-url="@Model.AuthenticatorUri"></div>
+
+            <div class="alert alert-info mt-3 py-2 small bg-info bg-opacity-10 border-0 text-info">
+                <i class="bi bi-info-circle me-2"></i> Espaços e maiúsculas não importam.
+            </div>
+        </li>
+
+        @* Passo 3 *@
+        <li class="mb-4 p-3 bg-dark bg-opacity-25 rounded border border-secondary border-opacity-10">
+            <div class="d-flex align-items-center mb-2">
+                <span class="step-number me-2">3</span>
+                <p class="mb-0 fw-bold text-uppercase small text-orange-gym">Verificação</p>
+            </div>
+            <p class="small opacity-75 mb-3">Introduza o código gerado pela aplicação no campo abaixo:</p>
+
+            <div class="row">
+                <div class="col-md-8 col-lg-6">
+                    <form id="send-code" method="post">
+                        <div class="form-group mb-3">
+                            <input asp-for="Input.Code" class="form-control gym-input text-center fs-5 fw-bold" autocomplete="off" placeholder="000000" />
+                            <span asp-validation-for="Input.Code" class="text-danger small"></span>
+                        </div>
+
+                        <button type="submit" class="w-100 btn btn-gym-orange py-2 fw-bold text-uppercase shadow-sm">Verificar e Ativar</button>
+                        <div asp-validation-summary="ModelOnly" class="text-danger mt-2 small" role="alert"></div>
+                    </form>
+                </div>
+            </div>
+        </li>
+    </ol>
+</div>
+
+<style>
+    .text-orange-gym {
+        color: #ff6600;
+    }
+
+    .bg-orange-gym {
+        background-color: #ff6600;
+    }
+
+    .step-number {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background: #ff6600;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 25px;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    .gym-input {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+        border: 1px solid #444 !important;
+        color: white !important;
+    }
+
+        .gym-input:focus {
+            border-color: #ff6600 !important;
+            box-shadow: none !important;
+        }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+        transition: 0.3s;
+    }
+
+        .btn-gym-orange:hover {
+            background-color: #e65c00;
+        }
+
+    /* Esconde a label flutuante original para não desformatar */
+    .form-floating > label {
+        display: none;
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

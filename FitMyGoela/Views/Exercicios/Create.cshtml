@@ -1,0 +1,46 @@
+﻿@model FitMyGoela.Models.Exercicio
+
+@{
+    ViewData["Title"] = "Novo Exercício";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-9">
+            <h2 class="text-center mb-4" style="color: #ff6600; font-weight: bold; text-transform: uppercase;">
+                Novo Exercício
+            </h2>
+
+            <div class="card shadow-lg border-0" style="background-color: #1a1a1a;">
+                <div class="card-header bg-dark border-secondary border-opacity-25">
+                    <span class="text-white fw-bold"><i class="bi bi-plus-circle me-2"></i> Adicionar ao Catálogo</span>
+                </div>
+
+                <div class="card-body p-4 text-white">
+                    <form asp-action="Create" enctype="multipart/form-data">
+
+
+                        <partial name="_FormExercicio" />
+
+                        <hr class="border-secondary border-opacity-25 my-4" />
+
+                        <div class="d-flex justify-content-end gap-2">
+                            <a asp-action="Index" class="btn btn-outline-light btn-sm px-4">
+                                <i class="bi bi-arrow-left"></i> Voltar
+                            </a>
+                            <button type="submit" class="btn btn-gym-orange text-white fw-bold">
+                                <i class="bi bi-check-lg me-1"></i> CRIAR EXERCÍCIO
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

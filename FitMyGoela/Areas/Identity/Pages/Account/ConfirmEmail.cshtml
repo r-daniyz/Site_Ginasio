@@ -1,0 +1,59 @@
+﻿@page
+@model ConfirmEmailModel
+@{
+    ViewData["Title"] = "Email Confirmado";
+}
+
+<div class="d-flex align-items-center justify-content-center" style="min-height: 80vh;">
+    <div class="col-md-6 col-lg-4 px-3 text-center">
+
+        @* Ícone de Sucesso *@
+        <div class="mb-4">
+            <div class="display-1 text-orange-gym">
+                <i class="bi bi-patch-check-fill"></i>
+            </div>
+        </div>
+
+        @* Card de Sucesso *@
+        <div class="card shadow-lg border-0 gym-card-style">
+            <div class="card-body p-5">
+                <h2 class="h4 fw-bold text-uppercase text-white mb-3">Conta <span class="text-orange-gym">Confirmada!</span></h2>
+
+                <p class="text-white-50 mb-4">
+                    O teu e-mail foi validado com sucesso. Agora já podes aceder a todas as funcionalidades do FitMyGoela.
+                </p>
+
+                <div class="d-grid gap-2 border-top border-secondary border-opacity-25 pt-4">
+                    <a asp-page="./Login" class="btn btn-gym-orange py-2 fw-bold text-uppercase shadow-sm">
+                        Entrar Agora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .gym-card-style {
+        background-color: rgba(40, 40, 40, 0.6) !important;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .text-orange-gym { color: #ff6600; }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+        transition: 0.3s;
+    }
+
+    .btn-gym-orange:hover {
+        background-color: #e65c00;
+        transform: translateY(-1px);
+    }
+
+    /* Esconde o h1 e o alerta verde padrão que aparecem na imagem */
+    h1, .alert-success { display: none !important; }
+</style>

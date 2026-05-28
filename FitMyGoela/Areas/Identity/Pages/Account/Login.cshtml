@@ -1,0 +1,118 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Entrar";
+}
+
+@* 1. Mudança aqui: removi a classe main-center-wrapper e usei flexbox direto *@
+<div class="d-flex align-items-center justify-content-center" style="min-height: 80vh;">
+    <div class="col-md-6 col-lg-4 px-3">
+
+        @* Título Superior *@
+        <div class="text-center mb-4">
+            <h1 class="display-6 fw-bold text-uppercase" style="color: #ff6600; letter-spacing: 2px;">
+                Área de <span class="text-white">Login</span>
+            </h1>
+            <p class="text-white-50 small text-uppercase">Introduza as suas credenciais</p>
+        </div>
+
+        @* Card de Login *@
+        <div class="card shadow-lg border-0 gym-card-style">
+            <div class="card-body p-4">
+                <form id="account" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                    @* Campo Email *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Input.Email" class="fw-bold text-orange-gym small text-uppercase mb-1">Email</label>
+                        <input asp-for="Input.Email" class="form-control gym-input" autocomplete="username" placeholder="exemplo@fit.com" />
+                        <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                    </div>
+
+                    @* Campo Password *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Input.Password" class="fw-bold text-orange-gym small text-uppercase mb-1">Palavra-passe</label>
+                        <input asp-for="Input.Password" class="form-control gym-input" autocomplete="current-password" placeholder="********" />
+                        <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                    </div>
+
+                    @* Manter Sessão *@
+                    <div class="checkbox mb-4 ps-1">
+                        <label asp-for="Input.RememberMe" class="form-label text-white-50 small">
+                            <input class="form-check-input" asp-for="Input.RememberMe" style="background-color: #333; border-color: #555;" />
+                            Lembrar-me neste dispositivo
+                        </label>
+                    </div>
+
+                    @* Botão Entrar *@
+                    <div class="d-grid gap-2">
+                        <button id="login-submit" type="submit" class="btn btn-gym-orange py-2 fw-bold text-uppercase">Entrar no Painel</button>
+                    </div>
+
+                    @* Links Auxiliares *@
+                    <div class="mt-4 text-center border-top border-secondary border-opacity-25 pt-3">
+                        <p class="mb-1">
+                            <a id="forgot-password" asp-page="./ForgotPassword" class="text-white-50 small text-decoration-none hover-orange">Esqueceu a palavra-passe?</a>
+                        </p>
+                        <p class="mb-0">
+                            <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="text-orange-gym small fw-bold text-decoration-none">Criar nova conta</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Removido o main-center-wrapper antigo que bloqueava o ecrã */
+
+    .gym-card-style {
+        background-color: rgba(40, 40, 40, 0.6) !important;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .text-orange-gym {
+        color: #ff6600;
+    }
+
+    .gym-input {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        border: 1px solid #444 !important;
+        color: white !important;
+        padding: 0.6rem 1rem;
+    }
+
+        .gym-input:focus {
+            border-color: #ff6600 !important;
+            box-shadow: none !important;
+            background-color: rgba(0, 0, 0, 0.4) !important;
+        }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+        transition: 0.3s;
+    }
+
+        .btn-gym-orange:hover {
+            background-color: #e65c00;
+            transform: translateY(-1px);
+        }
+
+    .hover-orange:hover {
+        color: #ff6600 !important;
+    }
+
+    /* Limpeza de elementos padrão */
+    h1:not(.display-6), h2, hr, .col-md-6.col-md-offset-2 {
+        display: none !important;
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

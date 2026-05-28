@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\fitmygoela\\fitmygoela\\fitmygoela.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDED3103-67B0-48AE-8DB1-1B23EB1DB07E}|FitMyGoela\\FitMyGoela.csproj|solutionrelative:fitmygoela\\fitmygoela.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T10:56:30.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T10:53:08.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T10:51:16.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T10:10:50.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwFIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T10:08:54.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwDUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T10:06:46.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T10:06:16.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnableAuthenticator.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAmwG4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:53:58.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:51:43.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Disable2fa.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:49:16.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeletePersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:48:29.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:47:00.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAqwEQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:44:16.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBsAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:36:59.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwGsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:35:17.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExternalLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "RelativeDocumentMoniker": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "RelativeToolTip": "FitMyGoela\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T09:32:32.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "FitMyGoela\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "FitMyGoela\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-27T09:32:02.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FitMyGoela.csproj",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela.csproj",
+              "RelativeDocumentMoniker": "FitMyGoela\\FitMyGoela.csproj",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\FitMyGoela\\FitMyGoela\\FitMyGoela.csproj",
+              "RelativeToolTip": "FitMyGoela\\FitMyGoela.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-27T09:29:25.955Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

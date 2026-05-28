@@ -1,0 +1,92 @@
+﻿@page
+@model EmailModel
+@{
+    ViewData["Title"] = "Gerir Email";
+    ViewData["ActivePage"] = ManageNavPages.Email;
+}
+
+<h3 class="text-orange-gym fw-bold text-uppercase mb-4">@ViewData["Title"]</h3>
+
+<partial name="_StatusMessage" for="StatusMessage" />
+
+<div class="row">
+    <div class="col-md-8 col-lg-6">
+        <form id="email-form" method="post">
+            <div asp-validation-summary="All" class="text-danger mb-3" role="alert"></div>
+
+            @* Email Atual *@
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="fw-bold text-white-50 small text-uppercase mb-1">Email Atual</label>
+                <div class="input-group">
+                    <input asp-for="Email" class="form-control gym-input bg-dark bg-opacity-50" disabled style="cursor: not-allowed;" />
+                    @if (Model.IsEmailConfirmed)
+                    {
+                        <span class="input-group-text bg-dark border-secondary border-opacity-25 text-success fw-bold" title="Email Confirmado">
+                            <i class="bi bi-check-circle-fill"></i>
+                        </span>
+                    }
+                </div>
+                @if (!Model.IsEmailConfirmed)
+                {
+                    <button id="email-verification" type="submit" asp-page-handler="SendVerificationEmail" class="btn btn-link text-orange-gym p-0 mt-1 small text-decoration-none fw-bold text-uppercase" style="font-size: 0.75rem;">
+                        <i class="bi bi-envelope-at me-1"></i> Reenviar email de verificação
+                    </button>
+                }
+            </div>
+
+            @* Novo Email *@
+            <div class="form-group mb-4">
+                <label asp-for="Input.NewEmail" class="fw-bold text-white-50 small text-uppercase mb-1">Novo Endereço de Email</label>
+                <input asp-for="Input.NewEmail" class="form-control gym-input" autocomplete="email" aria-required="true" placeholder="exemplo@novoemail.com" />
+                <span asp-validation-for="Input.NewEmail" class="text-danger small"></span>
+            </div>
+
+            @* Botão de Ação *@
+            <button id="change-email-button" type="submit" asp-page-handler="ChangeEmail" class="w-100 btn btn-gym-orange py-2 fw-bold text-uppercase shadow-sm">
+                Atualizar Email
+            </button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .text-orange-gym { color: #ff6600; }
+
+    .gym-input {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+        border: 1px solid #444 !important;
+        color: white !important;
+        padding: 0.6rem 1rem;
+    }
+
+    .gym-input:focus {
+        border-color: #ff6600 !important;
+        box-shadow: none !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+        transition: 0.3s;
+    }
+
+    .btn-gym-orange:hover {
+        background-color: #e65c00;
+        transform: translateY(-1px);
+    }
+
+    /* Ajuste para o ícone de sucesso no input-group */
+    .input-group-text {
+        border: 1px solid #444 !important;
+        border-left: none !important;
+    }
+
+    /* Removemos o floating label original */
+    .form-floating > label { display: none; }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

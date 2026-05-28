@@ -1,0 +1,28 @@
+﻿@model FitMyGoela.Models.TiposDeTreino
+
+@{
+    ViewData["Title"] = "Editar Treino";
+}
+
+<h1>Editar</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <partial name="_FormTiposDeTreino" />
+
+     
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

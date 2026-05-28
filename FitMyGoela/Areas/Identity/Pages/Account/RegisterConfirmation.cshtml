@@ -1,0 +1,83 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Confirmar Registo";
+}
+
+<div class="d-flex align-items-center justify-content-center" style="min-height: 80vh;">
+    <div class="col-md-6 col-lg-5 px-3 text-center">
+
+        @* Ícone de Sucesso *@
+        <div class="mb-4">
+            <div class="display-1 text-orange-gym">
+                <i class="bi bi-person-check-fill"></i>
+            </div>
+        </div>
+
+        @* Card de Confirmação *@
+        <div class="card shadow-lg border-0 gym-card-style">
+            <div class="card-body p-5">
+                <h2 class="h4 fw-bold text-uppercase text-white mb-3">Bem-vindo ao <span class="text-orange-gym">Fit My Goela</span></h2>
+
+                @{
+                    if (@Model.DisplayConfirmAccountLink)
+                    {
+                        <p class="text-white-50 mb-4">
+                            O teu registo foi recebido. Para ativares a tua conta e começares a treinar, clica no botão abaixo:
+                        </p>
+                        <div class="d-grid gap-2 mb-4">
+                            <a id="confirm-link" href="@Model.EmailConfirmationUrl" class="btn btn-gym-orange py-2 fw-bold text-uppercase shadow-sm">
+                                Confirmar a minha conta
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-white-50 mb-0">
+                            Enviámos um link de confirmação para o teu e-mail. Por favor, verifica a tua caixa de entrada para ativares o teu acesso.
+                        </p>
+                    }
+                }
+
+                <div class="mt-4 pt-3 border-top border-secondary border-opacity-25">
+                    <a asp-page="./Login" class="text-white-50 small text-decoration-none hover-orange fw-bold text-uppercase">
+                        Voltar ao Login
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .gym-card-style {
+        background-color: rgba(40, 40, 40, 0.6) !important;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .text-orange-gym {
+        color: #ff6600;
+    }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+        transition: 0.3s;
+    }
+
+        .btn-gym-orange:hover {
+            background-color: #e65c00;
+            transform: translateY(-1px);
+        }
+
+    .hover-orange:hover {
+        color: #ff6600 !important;
+    }
+
+    /* Esconde títulos automáticos do sistema */
+    h1 {
+        display: none !important;
+    }
+</style>

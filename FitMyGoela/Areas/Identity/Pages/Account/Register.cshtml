@@ -1,0 +1,110 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Criar Conta";
+}
+
+@* 1. Mudança principal: Usamos flexbox com min-height em vez de position fixed *@
+<div class="d-flex align-items-center justify-content-center" style="min-height: 80vh;">
+    <div class="col-md-6 col-lg-4 px-3">
+
+        @* Título Superior *@
+        <div class="text-center mb-4">
+            <h1 class="display-6 fw-bold text-uppercase" style="color: #ff6600; letter-spacing: 2px;">
+                FIT MY <span class="text-white">GOELA</span>
+            </h1>
+            <p class="text-white-50 small text-uppercase">Registo de Novo Atleta</p>
+        </div>
+
+        @* Card de Registo *@
+        <div class="card shadow-lg border-0 gym-card-style">
+            <div class="card-body p-4">
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    @* Campo E-mail *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Input.Email" class="fw-bold text-orange-gym small text-uppercase mb-1">E-mail</label>
+                        <input asp-for="Input.Email" class="form-control gym-input" placeholder="negro@exemplo.com" />
+                        <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                    </div>
+
+                    @* Campo Password *@
+                    <div class="form-group mb-3">
+                        <label asp-for="Input.Password" class="fw-bold text-orange-gym small text-uppercase mb-1">Palavra-passe</label>
+                        <input asp-for="Input.Password" class="form-control gym-input" placeholder="********" />
+                        <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                    </div>
+
+                    @* Campo Confirmar Password *@
+                    <div class="form-group mb-4">
+                        <label asp-for="Input.ConfirmPassword" class="fw-bold text-orange-gym small text-uppercase mb-1">Repetir Palavra-passe</label>
+                        <input asp-for="Input.ConfirmPassword" class="form-control gym-input" placeholder="********" />
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
+                    </div>
+
+                    @* Botão Registar *@
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-gym-orange py-2 fw-bold text-uppercase">Registar Agora</button>
+                    </div>
+
+                    @* Link para Login *@
+                    <div class="mt-3 text-center">
+                        <a asp-page="./Login" class="text-white-50 small text-decoration-none hover-orange">Já tem conta? Faça Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Estilo do Card Dark FitMyGoela */
+    .gym-card-style {
+        background-color: rgba(40, 40, 40, 0.6) !important;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .text-orange-gym {
+        color: #ff6600;
+    }
+
+    .gym-input {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        border: 1px solid #444 !important;
+        color: white !important;
+        padding: 0.6rem 1rem;
+    }
+
+        .gym-input:focus {
+            border-color: #ff6600 !important;
+            box-shadow: none !important;
+            background-color: rgba(0, 0, 0, 0.4) !important;
+        }
+
+    .btn-gym-orange {
+        background-color: #ff6600;
+        color: white !important;
+        border: none;
+        transition: 0.3s;
+    }
+
+        .btn-gym-orange:hover {
+            background-color: #e65c00;
+            transform: translateY(-1px);
+        }
+
+    .hover-orange:hover {
+        color: #ff6600 !important;
+    }
+
+    /* Limpeza do layout antigo do Identity */
+    h1:not(.display-6), h2, hr {
+        display: none !important;
+    }
+</style>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
